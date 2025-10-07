@@ -1,11 +1,11 @@
-# Latex_Tools_Collection
+# Latex_Tools_Collection <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNndqaWx6cWF6N2JhcXhwd3N2cWF6NnZlaGJnOHh6cW04bHk3bWZqOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26gslU06Q8xWlO8wo/giphy.gif" width="36"/>
 
 Guía práctica para crear **diagramas de bloques profesionales en LaTeX con TikZ**.  
 Incluye estilos reutilizables, cómo dibujar bloques, sumarizadores, flechas, colores y un **ejemplo completo** de un servomecanismo con *Feedforward* y *Feedback* listo para compilar.
 
 ---
 
-## 📦 Requisitos
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWd2c2w0NGprYzRsdmQ3Njdmcnd5YzB5amR6YmF0bnlma3BrZTZzcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYRzcWPJ5bZy1JS/giphy.gif" width="22"/> Requisitos
 
 Añade estas librerías en tu preámbulo:
 
@@ -16,16 +16,16 @@ Añade estas librerías en tu preámbulo:
 
 **Descripción de las librerías:**
 
-- `tikz`: motor de dibujo.
-- `arrows.meta`: puntas de flecha configurables (p. ej. `Stealth`).
-- `positioning`: posicionamiento relativo (`right=of`, `below=of`, etc.).
+- `tikz`: motor de dibujo.  
+- `arrows.meta`: puntas de flecha configurables (p. ej. `Stealth`).  
+- `positioning`: posicionamiento relativo (`right=of`, `below=of`, etc.).  
 
-💡 **Sugerencia:** para documentos tamaño carta usa  
-`\documentclass[letterpaper]{article}` y `\usepackage[margin=1in]{geometry}`.
+> **Sugerencia:** para documentos tamaño carta usa  
+> `\documentclass[letterpaper]{article}` y `\usepackage[margin=1in]{geometry}`.
 
 ---
 
-## 🧱 Estructura base
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXBuamw5dmR4YzFzeHBqMzR1NDdhdTQzbTlxZmJpYjJhMzhkY2tydyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7btPCcdNniyf0ArS/giphy.gif" width="22"/> Estructura base
 
 Todo diagrama vive dentro de:
 
@@ -39,7 +39,7 @@ Todo diagrama vive dentro de:
 
 ---
 
-## 🎨 Estilos reutilizables
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHFkMWNucGthNWlqZWtxOTg3bW42cWFoZGV0b241dnhqZG1tOXp3ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYy2n2AloG8LkEE/giphy.gif" width="22"/> Estilos reutilizables
 
 Define una vez y reúsalo en todos tus diagramas:
 
@@ -62,7 +62,7 @@ Define una vez y reúsalo en todos tus diagramas:
 
 ---
 
-## 🧩 Crear bloques (nodos)
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajd0cHJhN3puNXYyb2V3Z3Vycm5tYmtxYXB3MGU0enhyZ2VxNGs4MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l1J9u3TZfpmeDLkD2/giphy.gif" width="22"/> Crear bloques (nodos)
 
 ```latex
 \node[block] (ref) {Referencia\\(pos/vel/par deseado)};
@@ -77,7 +77,7 @@ Define una vez y reúsalo en todos tus diagramas:
 
 ---
 
-## 🔗 Conectar bloques (líneas y direcciones)
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHYxZmZqY3hpdXM0b3ZyZWd1bGxvbHNmdml5YWFjYjV3dGQ3eDd0NSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o6Zt0Kf8Y1J1I4k4c/giphy.gif" width="22"/> Conectar bloques (líneas y direcciones)
 
 ```latex
 \draw[sig] (ref)  -- (sum1);
@@ -98,7 +98,7 @@ Ejemplo de retorno al sumador:
 
 ---
 
-## ➕ Signos y etiquetas
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2Z4NTE5N2M3cDk1cW5pZXplZzBkemRhM2J5eWZxYmF1b3h6b3dmcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IykNQ2qv5jZqf3W/giphy.gif" width="22"/> Signos y etiquetas
 
 ```latex
 \node[above left=0mm and -1.5mm of sum1] {\small $+$};
@@ -113,7 +113,7 @@ Ejemplo de retorno al sumador:
 
 ---
 
-## 🧪 Ejemplo completo: Servomecanismo con Feedforward y Feedback
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3I0ZGFvaDRta2g2ZHBhNmQxaTd6dmM2ZW1mZ2lnb3N1M2dmd2ZtOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oEduQAsYcJKQH0lIc/giphy.gif" width="22"/> Ejemplo completo: Servomecanismo con Feedforward y Feedback
 
 > **Compila tal cual** (pdflatex). Ajustado a **hoja carta** y al ancho total de página.
 
@@ -168,13 +168,11 @@ Ejemplo de retorno al sumador:
 \end{tikzpicture}}
 \end{document}
 ```
-
 ![Tarea_Servos_page-0001](https://github.com/user-attachments/assets/afedc7b9-9b67-4964-8169-099ac56d21a6)
-
 
 ---
 
-## 🛠️ Trucos rápidos
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2M4bTR0Yjc0d2J4N2d0ZDQzY2ZpZzZsOGUxNjJpZ3Znc2R6eW50OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26gN1F6nMqf3Q6rFK/giphy.gif" width="22"/> Trucos rápidos
 
 - **Ajustar a página:** `\resizebox{\textwidth}{!}{...}` evita recortes.  
 - **Conexiones limpias:** usa `.north`, `.south`, `.west`, `.east` para conectar por lados específicos.  
@@ -184,7 +182,7 @@ Ejemplo de retorno al sumador:
 
 ---
 
-## 📚 Recursos
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzk5amNqM21kYmF2b2R4cTRmM2h3aWVxemI5ZWFpdzhmbTFxN3EyOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26u4hYx5bK8c7C8Zy/giphy.gif" width="22"/> Recursos
 
 - [PGF/TikZ Manual (CTAN)](https://ctan.org/pkg/pgf?lang=en)  
 - [TikZ en Overleaf](https://www.overleaf.com/learn/latex/TikZ_package)  
@@ -192,7 +190,8 @@ Ejemplo de retorno al sumador:
 
 ---
 
-## 📝 Licencia
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2M4d3I3M3M3cDBscmJuaHpxN3ZrMGZjajRybjNwN2Z6cm80M3N2MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l3q2zSNf3QqRk/giphy.gif" width="22"/> Licencia
 
 Este contenido puede usarse libremente en contextos académicos y profesionales.  
 Incluye atribución a este repositorio si reutilizas fragmentos de ejemplo.
+
