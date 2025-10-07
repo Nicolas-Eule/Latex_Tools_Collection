@@ -169,6 +169,9 @@ Ejemplo de retorno al sumador:
 \end{document}
 ```
 
+![Tarea_Servos_page-0001](https://github.com/user-attachments/assets/afedc7b9-9b67-4964-8169-099ac56d21a6)
+
+
 ---
 
 ## 🛠️ Trucos rápidos
